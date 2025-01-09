@@ -27,7 +27,7 @@ CMD ["makepkg", "--force", "--syncdeps"]
 
 FROM scratch
 
-MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
+LABEL maintainer="Anubhav Gain <iamanubhavgain@gmail.com>"
 
 ENV LANG en_US.UTF-8
 ENV HOME /home/build
