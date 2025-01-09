@@ -1,4 +1,4 @@
-FROM docker.io/nubs/arch-build
+FROM docker.io/anubhavgicpl/anubhavfinal-php
 
 LABEL maintainer="Anubhav Gain <iamanubhavgain@gmail.com>"
 
