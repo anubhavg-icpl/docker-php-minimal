@@ -50,4 +50,4 @@ chmod g+w .
 docker-php-minimal is licensed under the MIT license.  See [LICENSE](LICENSE)
 for the full license text.
 
-[nubs/arch-build]: https://github.com/nubs/arch-build
+[docker.io/nubs/arch-build]: https://github.com/docker.io/nubs/arch-build

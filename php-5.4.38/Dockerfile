@@ -1,4 +1,4 @@
-FROM nubs/arch-build
+FROM docker.io/nubs/arch-build
 
 MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
 
