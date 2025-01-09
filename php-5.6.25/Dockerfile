@@ -1,6 +1,6 @@
 FROM docker.io/nubs/arch-build
 
-MAINTAINER Spencer Rinehart <anubis@overthemonkey.com>
+LABEL maintainer="Anubhav Gain <iamanubhavgain@gmail.com>"
 
 COPY php/PKGBUILD php/*.patch /package/
 
