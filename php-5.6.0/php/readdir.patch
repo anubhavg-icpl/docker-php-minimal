@@ -1,0 +1,11 @@
+diff --git a/main/reentrancy.c b/main/reentrancy.c
+index original..modified 100644
+--- a/main/reentrancy.c
++++ b/main/reentrancy.c
+@@ -136,7 +136,7 @@ struct dirent *php_readdir_r(DIR *dirp)
+ {
+     struct dirent *entry;
+     
+-    return readdir_r(dirp, entry);
++    return readdir_r(dirp, entry, &entry);
+ }
